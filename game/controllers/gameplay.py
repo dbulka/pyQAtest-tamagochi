@@ -1,6 +1,8 @@
 import random
 from game.views import GameInterface, User
 from game.models import pets
+from utils.json_storage import JSONstorage
+
 
 class Gameplay:
     """
@@ -68,12 +70,16 @@ class Gameplay:
             pet.alive = pet.is_alive()
         #show game result
         game_interface.show_game_result(n, pet.alive)
+        storage.write_data(pet.name, n, pet.alive)
 
 #initializate interface
 game_interface = GameInterface()
 
 #initializate user
 do_user = User()
+
+#initializate json_storage
+storage = JSONstorage()
 
 #initializate gameplay
 game = Gameplay()
