@@ -1,7 +1,7 @@
 import random
-from game.views import GameInterface, User
-from game.models import pets
-from utils.json_storage import JSONstorage
+from pyQAtest_tamagochi.game.views import GameInterface, User
+from pyQAtest_tamagochi.game.models import pets
+from pyQAtest_tamagochi.utils import JSONstorage
 
 
 class Gameplay:
@@ -55,7 +55,7 @@ class Gameplay:
         """
 
         # random pet choice
-        pet = game_interface.choose_pet()
+        pet = do_user.choose_pet()
 
         # cycle perfom until n < 100 or alive = true
         n = 0
@@ -82,7 +82,7 @@ do_user = User()
 storage = JSONstorage()
 
 #initializate gameplay
-game = Gameplay()
+gaming = Gameplay()
 
 #start programm
-game.main()
+gaming.main()

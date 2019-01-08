@@ -1,2 +1,2 @@
-from game.models.pet import Tamagochi, random
-from game.models import pets
+from pyQAtest_tamagochi.game.models.pet import Tamagochi, random
+from pyQAtest_tamagochi.game.models import pets

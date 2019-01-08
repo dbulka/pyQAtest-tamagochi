@@ -1,5 +1,6 @@
 import logging
-from game.views.interface import GameInterface
+from pyQAtest_tamagochi.game.views.interface import GameInterface
+from pyQAtest_tamagochi.game.models import Tamagochi, random, pets
 
 
 class User(GameInterface):
@@ -21,7 +22,7 @@ class User(GameInterface):
         :hp pet: Tamagochi hp
         :return: deduct input value from Tamagochi hp
         """
-        pet.hp  += int(input('enter amount of hp: '))
+        pet.hp  += int(input('enter amount of happiness: '))
 
     def play(self,pet):
         """
@@ -53,3 +54,24 @@ class User(GameInterface):
                 resp = True
                 logging.warning('you enter wrong number, repeat please')
         return choice
+
+    def choose_pet(self):
+        tamagochs = [pets.Dog(), pets.Robot(), pets.Python(), pets.MickyMouse(), pets.Cheburashka()]
+        x = True
+        while x:
+            x = input('There are our pets \n1 - {0[0]} \n2 - {0[1]} \n3 - {0[2]} \n4 - {0[3]} \n5 - {0[4]} \nPlease choose your pet: '.format(tamagochs))
+            try:
+                pet = tamagochs[int(x)-1]
+                x = False
+            except:
+                logging.warning('you enter wrong number, repeat please')
+        return pet
+
+    def ask_question(self, question):
+        """
+        use for asking question
+        :param question: gameplay question
+        :return: user response to question
+        """
+        response = input(question)
+        return response

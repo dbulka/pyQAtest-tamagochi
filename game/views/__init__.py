@@ -1,2 +1,2 @@
-from game.views.interface import GameInterface
-from game.views.user import User
+from pyQAtest_tamagochi.game.views.user import GameInterface
+from pyQAtest_tamagochi.game.views.user import User

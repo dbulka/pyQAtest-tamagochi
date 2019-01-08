@@ -11,10 +11,6 @@ class Tamagochi:
         :param name: Tamagochi name
         """
         self.name = name
-        self.hp = random.randint(0,100)
-        self.hunger = random.randint(0,100)
-        self.happiness = random.randint(0,100)
-        self.alive = True
 
     def is_alive(self):
         """

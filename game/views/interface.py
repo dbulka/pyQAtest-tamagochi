@@ -1,5 +1,5 @@
-from game.models import Tamagochi, random, pets
-
+from pyQAtest_tamagochi.game.models import Tamagochi, pets
+import logging
 
 class GameInterface:
     """
@@ -23,18 +23,4 @@ class GameInterface:
         print('%s on %s th step' % ('YOU WIN!' if (alive and n > 100) else 'YOU LOSE!', n))
 
 
-    def choose_pet(self):
-        tamagochs = [pets.Cat(), pets.Dog(), pets.Rabbit(), pets.Bird(), pets.Dragon()]
-        x = random.randrange(0,len(tamagochs))
-        pet = tamagochs[x]
-        # print(pet)
-        return pet
 
-    def ask_question(self, question):
-        """
-        use for asking question
-        :param question: gameplay question
-        :return: user response to question
-        """
-        response = input(question)
-        return response
