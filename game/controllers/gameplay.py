@@ -16,8 +16,8 @@ class Gameplay:
         :param pet: hp, happiness, hunger
         :return: changed Tamagochi hp, happiness, hunger
         """
-        pet.hp -= random.randrange(5, 30)
-        pet.happiness -= random.randrange(5, 30)
+        pet.hp -= random.randrange(5, 10)
+        pet.happiness -= random.randrange(5, 10)
         pet.hunger += random.randrange(10, 50)
 
     def perfom_choice(self, pet, choice):
