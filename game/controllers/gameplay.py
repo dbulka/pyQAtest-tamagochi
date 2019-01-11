@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+import sys
+
 import random
 from pyQAtest_tamagochi.game.views import GameInterface, User
 from pyQAtest_tamagochi.game.models import pets
