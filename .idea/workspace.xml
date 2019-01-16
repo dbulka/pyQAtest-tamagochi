@@ -1,16 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b2f73fb-8f1d-495c-9cc6-b5d8ea8fbd3e" name="Default Changelist" comment="try to save program by keyboard">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/pyQAtest_tamagochi.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/pyQAtest-tamagochi.iml" beforeDir="false" />
+    <list default="true" id="3b2f73fb-8f1d-495c-9cc6-b5d8ea8fbd3e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/controllers/gameplay.py" beforeDir="false" afterPath="$PROJECT_DIR$/game/controllers/gameplay.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/controllers/input.py" beforeDir="false" afterPath="$PROJECT_DIR$/game/controllers/input.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/views/interface.py" beforeDir="false" afterPath="$PROJECT_DIR$/game/views/interface.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,11 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/game/controllers/gameplay.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-272">
-              <caret line="5" column="48" lean-forward="true" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
+            <state relative-caret-position="1156">
+              <caret line="68" column="26" lean-forward="true" selection-start-line="68" selection-start-column="26" selection-end-line="68" selection-end-column="26" />
               <folding>
                 <element signature="e#23#36#0" expanded="true" />
               </folding>
@@ -40,34 +32,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/game/controllers/input.py">
+        <entry file="file://$PROJECT_DIR$/game/views/user.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="243">
+              <caret line="61" column="28" selection-start-line="61" selection-start-column="28" selection-end-line="61" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/game/controllers/multiprocess.py">
+        <entry file="file://$PROJECT_DIR$/game/views/interface.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="25" lean-forward="true" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+            <state relative-caret-position="170">
+              <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
               <folding>
-                <element signature="e#0#11#0" expanded="true" />
+                <element signature="e#0#58#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/game/controllers/timer.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" lean-forward="true" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -87,17 +67,17 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/game/views/user.py" />
         <option value="$PROJECT_DIR$/utils/cheacker.py" />
         <option value="$PROJECT_DIR$/input.py" />
         <option value="$PROJECT_DIR$/utils/json_storage.py" />
-        <option value="$PROJECT_DIR$/game/controllers/gameplay.py" />
         <option value="$PROJECT_DIR$/game/views/interface.py" />
         <option value="$PROJECT_DIR$/game/controllers/multiflow.py" />
         <option value="$PROJECT_DIR$/game/controllers/multiprocessing.py" />
         <option value="$PROJECT_DIR$/game/controllers/input.py" />
         <option value="$PROJECT_DIR$/game/controllers/timer.py" />
         <option value="$PROJECT_DIR$/game/controllers/multiprocess.py" />
+        <option value="$PROJECT_DIR$/game/views/user.py" />
+        <option value="$PROJECT_DIR$/game/controllers/gameplay.py" />
       </list>
     </option>
   </component>
@@ -123,6 +103,11 @@
             <path>
               <item name="pyQAtest_tamagochi" type="b2602c69:ProjectViewProjectNode" />
               <item name="pyQAtest_tamagochi" type="462c0819:PsiDirectoryNode" />
+              <item name="asserts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyQAtest_tamagochi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyQAtest_tamagochi" type="462c0819:PsiDirectoryNode" />
               <item name="game" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -130,6 +115,28 @@
               <item name="pyQAtest_tamagochi" type="462c0819:PsiDirectoryNode" />
               <item name="game" type="462c0819:PsiDirectoryNode" />
               <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyQAtest_tamagochi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyQAtest_tamagochi" type="462c0819:PsiDirectoryNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyQAtest_tamagochi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyQAtest_tamagochi" type="462c0819:PsiDirectoryNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyQAtest_tamagochi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyQAtest_tamagochi" type="462c0819:PsiDirectoryNode" />
+              <item name="saves" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyQAtest_tamagochi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyQAtest_tamagochi" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -325,7 +332,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1546410459605</updated>
-      <workItem from="1547661716226" duration="9468000" />
+      <workItem from="1547661716226" duration="10925000" />
     </task>
     <task id="LOCAL-00001" summary="perfom saving from keyboard">
       <created>1547664986696</created>
@@ -348,11 +355,32 @@
       <option name="project" value="LOCAL" />
       <updated>1547665979724</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="perfomed multiprocessing">
+      <created>1547673176279</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1547673176287</updated>
+    </task>
+    <task id="LOCAL-00005" summary="fixed func. requirement #2">
+      <created>1547674064697</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1547674064697</updated>
+    </task>
+    <task id="LOCAL-00006" summary="fixed func. requirement #2">
+      <created>1547674558894</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1547674558894</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9468000" />
+    <option name="totallyTimeSpent" value="10925000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -365,7 +393,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -374,12 +401,12 @@
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32569557" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32569557" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32937366" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32733223" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.32569557" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3289689" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32569557" />
@@ -397,17 +424,9 @@
     <MESSAGE value="perfom saving from keyboard" />
     <MESSAGE value="change format of saving according to requirement" />
     <MESSAGE value="try to save program by keyboard" />
-    <option name="LAST_COMMIT_MESSAGE" value="try to save program by keyboard" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/game/views/interface.py</url>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="perfomed multiprocessing" />
+    <MESSAGE value="fixed func. requirement #2" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed func. requirement #2" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/exceptions/__init__.py">
@@ -427,13 +446,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../untitled/12-27-2.py" />
     <entry file="file://$PROJECT_DIR$/utils/cheacker.py" />
-    <entry file="file://$PROJECT_DIR$/game/views/user.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="23" column="55" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/input.py" />
     <entry file="file://$PROJECT_DIR$/../AppData/Roaming/Python/Python37/site-packages/keyboard/_winkeyboard.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -464,22 +476,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/game/views/interface.py">
+    <entry file="file://$PROJECT_DIR$/game/controllers/timer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#58#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="34">
+          <caret line="2" column="13" lean-forward="true" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/game/controllers/gameplay.py">
+    <entry file="file://$PROJECT_DIR$/game/controllers/multiprocess.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-272">
-          <caret line="5" column="48" lean-forward="true" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
+        <state relative-caret-position="102">
+          <caret line="6" column="25" lean-forward="true" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
           <folding>
-            <element signature="e#23#36#0" expanded="true" />
+            <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -494,20 +503,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/game/controllers/multiprocess.py">
+    <entry file="file://$PROJECT_DIR$/game/views/interface.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="25" lean-forward="true" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+        <state relative-caret-position="170">
+          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
           <folding>
-            <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#0#58#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/game/controllers/timer.py">
+    <entry file="file://$PROJECT_DIR$/game/views/user.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" lean-forward="true" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="243">
+          <caret line="61" column="28" selection-start-line="61" selection-start-column="28" selection-end-line="61" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game/controllers/gameplay.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1156">
+          <caret line="68" column="26" lean-forward="true" selection-start-line="68" selection-start-column="26" selection-end-line="68" selection-end-column="26" />
+          <folding>
+            <element signature="e#23#36#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
