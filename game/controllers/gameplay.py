@@ -1,5 +1,4 @@
 #!/usr/bin/env python
-import sys
 
 import random
 from pyQAtest_tamagochi.game.views import GameInterface, User
@@ -51,7 +50,7 @@ class Gameplay:
         else:
             pet.hp -= random.randint(5, 50)
 
-    def main(self):
+    if __name__ == "__main__":
         """
         perfom gameplay
         :return: game result
@@ -73,7 +72,6 @@ class Gameplay:
             pet.alive = pet.is_alive()
         #show game result
         game_interface.show_game_result(n, pet.alive)
-        storage.write_data(pet.name, n, pet.alive)
 
 #initializate interface
 game_interface = GameInterface()
@@ -81,11 +79,7 @@ game_interface = GameInterface()
 #initializate user
 do_user = User()
 
-#initializate json_storage
-storage = JSONstorage()
-
 #initializate gameplay
 gaming = Gameplay()
 
-#start programm
-gaming.main()
+

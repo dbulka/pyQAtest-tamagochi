@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/pyQAtest-tamagochi.iml" filepath="$PROJECT_DIR$/.idea/pyQAtest-tamagochi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/pyQAtest_tamagochi.iml" filepath="$PROJECT_DIR$/.idea/pyQAtest_tamagochi.iml" />
     </modules>
   </component>
 </project>

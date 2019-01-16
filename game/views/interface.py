@@ -20,7 +20,7 @@ class GameInterface:
         :param alive: state of Tamagochi alive
         :return: string with game result
         """
-        print('%s on %s th step' % ('YOU WIN!' if (alive and n > 100) else 'YOU LOSE!', n))
+        print('%s on %s th step' % ('YOU WIN!' if (alive and n > 100) else 'GAME OVER!!!', n))
 
 
 
