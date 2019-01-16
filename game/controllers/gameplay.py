@@ -36,7 +36,7 @@ class Gameplay:
         elif choice is '3':
             do_user.play(pet)
 
-    def fifth_step(self, n, pet):
+    def fifth_step(self, pet):
         """
         change Tamagochi hp every 5-th step
         :param n: step number
@@ -65,7 +65,7 @@ class Gameplay:
             self.perfom_choice(pet, choice)
             n += 1
             if n % 5 == 0:
-                self.fifth_step(n, pet)
+                self.fifth_step(pet)
             self.step(pet)
             pet.alive = pet.is_alive()
         # show game result
@@ -77,13 +77,14 @@ class Gameplay:
         :return: game result
         """
         #run menu
-        menu = do_user.menu()
-        if menu = '1':
-            game_process()
-        elif menu = '2':
-            print('"Load game" on development stage')
-        else:
-            break
+        while True:
+            menu = do_user.menu()
+            if menu = '1':
+                game_process()
+            elif menu = '2':
+                print('"Load game" on development stage')
+            else:
+                break
 
 #initializate interface
 game_interface = GameInterface()
