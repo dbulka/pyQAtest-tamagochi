@@ -50,15 +50,13 @@ class Gameplay:
         else:
             pet.hp -= random.randint(5, 50)
 
-    if __name__ == "__main__":
+    def game_process(self):
         """
-        perfom gameplay
-        :return: game result
+        process of Tamagochi game according to functional requirements
+        :return: WIN/GAME OVER
         """
-
         # random pet choice
         pet = do_user.choose_pet()
-
         # cycle perfom until n < 100 or alive = true
         n = 0
         while (pet.alive and n < 100):
@@ -70,8 +68,22 @@ class Gameplay:
                 self.fifth_step(n, pet)
             self.step(pet)
             pet.alive = pet.is_alive()
-        #show game result
+        # show game result
         game_interface.show_game_result(n, pet.alive)
+
+    if __name__ == "__main__":
+        """
+        perfom gameplay
+        :return: game result
+        """
+        #run menu
+        menu = do_user.menu()
+        if menu = '1':
+            game_process()
+        elif menu = '2':
+            print('"Load game" on development stage')
+        else:
+            break
 
 #initializate interface
 game_interface = GameInterface()
