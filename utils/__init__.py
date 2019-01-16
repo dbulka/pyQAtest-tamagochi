@@ -1,0 +1,1 @@
+from pyQAtest_tamagochi.utils.json_storage import JSONstorage

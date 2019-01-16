@@ -1,0 +1,98 @@
+#!/usr/bin/env python
+
+import random
+from pyQAtest_tamagochi.game.views import GameInterface, User
+from pyQAtest_tamagochi.game.models import pets
+from pyQAtest_tamagochi.utils import JSONstorage
+
+
+class Gameplay:
+    """
+    gameplay process
+    """
+
+    @staticmethod
+    def step(pet):
+        """
+        change Tamagochi param
+        :param pet: hp, happiness, hunger
+        :return: changed Tamagochi hp, happiness, hunger
+        """
+        pet.hp -= random.randrange(5, 10)
+        pet.happiness -= random.randrange(5, 10)
+        pet.hunger += random.randrange(10, 50)
+
+    def perfom_choice(self, pet, choice):
+        """
+        according to user make_choice choose way of changing Tamagochi param
+        :param pet:
+        :param choice: user make_choice
+        :return: method, which will change chosen Tamagochi param
+        """
+        if choice is '1':
+            do_user.give_food(pet)
+        elif choice is '2':
+            do_user.give_hp(pet)
+        elif choice is '3':
+            do_user.play(pet)
+
+    def fifth_step(self, pet):
+        """
+        change Tamagochi hp every 5-th step
+        :param n: step number
+        :param pet: change Tamagochi hp
+        """
+
+        coin = random.randint(0, 1)
+        print(coin, ' is coin')
+        if coin == 0:
+            pet.hp += random.randint(5, 50)
+        else:
+            pet.hp -= random.randint(5, 50)
+
+    def game_process(self):
+        """
+        process of Tamagochi game according to functional requirements
+        :return: WIN/GAME OVER
+        """
+        # random pet choice
+        pet = do_user.choose_pet()
+        # cycle perfom until n < 100 or alive = true
+        n = 0
+        while (pet.alive and n < 100):
+            game_interface.show_tamagochi(pet)
+            choice = do_user.make_choice(n)
+            self.perfom_choice(pet, choice)
+            n += 1
+            if n % 5 == 0:
+                self.fifth_step(pet)
+            self.step(pet)
+            pet.alive = pet.is_alive()
+        # show game result
+        game_interface.show_game_result(n, pet.alive)
+
+    if __name__ == "__main__":
+        """
+        perfom gameplay
+        :return: game result
+        """
+        #run menu
+        while True:
+            menu = do_user.menu()
+            if menu = '1':
+                game_process()
+            elif menu = '2':
+                print('"Load game" on development stage')
+            else:
+                break
+
+#initializate interface
+game_interface = GameInterface()
+
+#initializate user
+do_user = User()
+
+#initializate gameplay
+gaming = Gameplay()
+
+

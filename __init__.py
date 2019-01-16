@@ -1,0 +1,1 @@
+from pyQAtest_tamagochi import __init__
